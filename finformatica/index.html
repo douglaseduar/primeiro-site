@@ -1,0 +1,176 @@
+<html>
+        <header>
+        <title>GRUPO F</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="fotos/favi.png" type="image/x=icon"/>
+        <link rel="stylesheet" href="style.css"/>
+        <meta name="viewport" content="width=device-width", initial-scale=1.0>
+        <script src="https://kit.fontawesome.com/c779c4f5a5.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-masker/1.1.0/vanilla-masker.min.js"></script>
+        <script src="vazio.js"></script>
+        <script>   
+          function mostrarAtivo(tag){
+          var tag_li = document.getElementById('lista_menu');
+          var tag_a = tag_li.getElementsByTagName('a');
+          for (i=0; i<tag_a.length; i++ )
+          {
+             tag_a[i].style.color = "";
+          }
+             tag.style.color = "yellow";
+          }
+       </script>    
+        
+
+        
+    </header>
+    <body>
+        <nav>
+            <ul id="lista_menu">
+                <li><a href="#contato" onclick="mostrarAtivo(this);">Contato</a></li>
+                <li><a href="#central"onclick="mostrarAtivo(this);">Central do Assinante</a></li>
+                <li><a href="#planos"onclick="mostrarAtivo(this);">Planos</a></li>
+                <li><a href="#serv"onclick="mostrarAtivo(this);">Serviços</a></li>
+                <li><a href="#inicio"onclick="mostrarAtivo(this);">INÍCIO</a></li>
+            </ul>
+            
+        <div class="logo"></div>
+        <a href="#inicio"><img src="fotos/logo.png" alt="logo" height="50px"></a>
+        </nav>
+        <section><div class="welcome" id="inicio"></div>
+        <i class="fas fa-angle-double-down"></i>
+        <div class="bemvindo">SEJAM BEM VINDOS</div>
+        <div class="welcome1">CONHEÇA UM POUCO MAIS DA NOSSA HISTÓRIA:</div>
+        </section>
+        <div class="fundo1">
+        </div><div class="comeco" id="serv"><h3>O Grupo F Informática atua no mercado de tecnologias desde 2005, sendo um dos
+            pioneiros no mercado, integrando soluções eficientes aos seus clientes. Tendo  sua loja física em 
+            União da Vitória - Paraná, apresenta um dos melhores serviços da região no que diz
+            respeito a Fibra Óptica, conta com profissionais qualificados, buscando sempre novas 
+            tecnologias para melhor atender.</h3>
+        <div class="intro">GRUPO F INFORMÁTICA</div>
+        <div class="flex-container">
+            <div><i class="fas fa-wifi"><div class="wifi">Internet: Fibra Ótica e Rádio</div><div class="wifi1">Oferecemos vários tipos de planos para você ter internet 
+                em casa ou no trabalho com muita velocidade e desempenho.</div></i></div>
+            <div><i class="fa fa-video"><div class="wifi">Venda de sistemas de monitoramento com câmeras</div><div class="wifi1">Com 
+              os sistemas de monitoramento com câmeras você estará sempre um passo a frente.</div></i></div>
+            <div><i class="fa fa-network-wired"><div class="wifi">Link Dedicado para Empresas</div><div class="wifi1">Na Famatel 
+              você pode escolher o tipo de conexão mais adequado a você ou sua empresa.</div></i></div>
+          </div>
+          <div class="flex-container1">
+            <div><i class="fa fa-desktop"><div class="wifi">Venda de Hardware e Software</div><div class="wifi1">Software 
+              e Hardware você encontra aqui sempre com os melhores preços e atendimento personalizado.</div></i></div>
+            <div><i class="fa fa-tools"><div class="wifi">Manutenção em Computadores e Impressoras</div><div class="wifi1">Equipe 
+              técnica e especializada para resolver qualquer problema que seu computador tenha.</div></i></div>
+            <div><i class="fa fa-phone-volume"><div class="wifi">Suporte técnico 24 horas por dia</div><div class="wifi1">Suporte
+               tecnico especializado e está a disposição 24 horas remotamente para melhor atender.</div></i></div>
+          </div>
+        <div class="planos" id="planos"><i>PLANOS:</i></div>
+            <div class="flex-container2">
+              <div><img src="fotos/normal.png" class="plano"><div class="planot">5MB</div>
+              <div class="preco">R$00,00</div><button class="euquero">Ver +</button>
+            <div class="planosub">◉ Internet via Rádio <br>
+              ◉ Suporte 24 horas <br>
+              ◉ Internet de Alta Velocidade</div>
+            </div>
+              <div><img src="fotos/pro.png" class="plano"><div class="planot">10MB</div>
+              <div class="preco">R$00,00</div><button class="euquero">Ver +</button>
+              <div class="planosub">◉ Internet via Rádio <br>
+                ◉ Suporte 24 horas <br>
+                ◉ Internet de Alta Velocidade <br>
+                ◉ Instalação Grátis</div>
+              </div>
+              <div><img src="fotos/ultra.png" class="plano"><div class="planot">20MB</div>
+              <div class="preco">R$00,00</div><button class="euquero">Ver +</button>
+              <div class="planosub">◉ Internet via Rádio <br>
+                ◉ Suporte 24 horas <br>
+                ◉ Internet de Alta Velocidade <br>
+                ◉ Instalação Grátis <br>
+                ◉ Bonus para debito automatico</div>
+              </div>  
+              <div><img src="fotos/master.png" class="plano"><div class="planot">50MB</div>
+              <div class="preco">R$00,00</div><button class="euquero">Ver +</button>
+              <div class="planosub">◉ Internet via Rádio <br>
+                ◉ Suporte 24 horas <br>
+                ◉ Internet de Alta Velocidade <br> 
+                ◉ Instalação Grátis <br>
+                ◉ Bonus para debito automatico <br>
+                ◉ Desconto nos produtos da loja <br>
+                ◉ Link Dedicado</div>
+              </div>
+            </div></div>
+            <div class="fundo2"></div>
+            <div class="fundo3"></div>
+              <div class="comeco">
+              <div class="flex-container3">
+                <div class="cep">DIGITE SEU CEP E  VERIFIQUE A DISPONIBILIDADE DE SUA REGIÃO:</div>
+                
+                <div class="cep1"><form onSubmit="return verificaForm()">
+                  <input type="text" id="cep" name="cep" class="form-control" onkeypress="$(this).mask('00000-000')"><br>
+                  <button type="submit" class="cep2">Enviar</button>
+                </form>
+              </div></div></div>
+
+
+
+                <div class="flex-container4" id="central">
+                  <div><div class="central">CENTRAL DO ASSINANTE</div><div class="info">Neste canal, você cliente poderá:<br>
+                    <br><br>
+                    💾 Atualizar seus dados.<br><br>
+                    💾 Verificar boletos em abertos.<br><br>
+                    💾 Solicitar chamado para atendimento técnico.</div>
+                    <div class="caso">Caso não tenha seu login e senha para acesso, basta solicitar pelo telefone 42-3522-9284 ou
+                       contato@famatel.com.br</div><a href="https://7d24efe3-0c4c-4dfe-9bb1-cb296bddd4be.filesusr.com/ugd/7e45a0_db90b5526b6c4230a604ffdf2fbc553b.pdf" target="blank"><button class="contrato"><i class="fas fa-file-signature">CONTRATO</i></button></a> <div class="azul"><img src="fotos/barra.jpg" height="390px"></div></div>
+                  <div class="central2"><i class="fas fa-user"></i><div class="identifique">faça o login</div><div class="cadastro">
+                    <input placeholder="LOGIN" type="text">
+                    <input placeholder="SENHA" type="password">
+                </div><button class="entre">ENTRE</button></div>
+                  </div>
+                  <div class="mapa" id="contato"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14315.259140839577!2d-51.0900639!3d-26.235207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x703616d7b3f1f999!2sF%20Informatica!5e0!3m2!1spt-BR!2sbr!4v1587867160161!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+                    <div class="comeco">
+                    <div class="flex-container5">
+                      <div><div class="mensagem">MANDE SUA MENSAGEM:</div>
+                        <div class="nome"><input placeholder=" Nome:" type="text"></div>
+                        <input attrname="telephone1" type="text" class="fone" placeholder=" Telefone:">
+                      <textarea class="recado" cols="35" rows="8" placeholder="Escreva sua mensagem:"></textarea>
+                        <div class="email"><input placeholder=" Email:" type="email"></div>
+                        <button class="enviar">ENVIAR</button>
+                      </div>
+                      <div><i class="fas fa-map-marker-alt"></i><div class="local">R. Santos Dumont, 205 - Centro <br>
+                        União da Vitória - PR, 84600-000</div>
+                        <i class="fas fa-envelope"></i><div class="envelope">finformatica@finformatica.com.br <br>
+                          contato@finformatica.com.br</div>
+                          <i class="fas fa-phone-alt"></i><div class="tel">(42) 3523-9284 <br>
+                            (42) 99999-9999</div>
+                            
+                      </div>
+                    </div></div>
+                    <div class="socias">REDES SOCIAIS:</div>
+                    <div class="icones"><a href="https://www.facebook.com/pages/Famatel-Telecomunicacoes/982178748517250" target="blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/f-informatica" target="blank"><i class="fab fa-instagram-square"></i></a>
+                      <a href="https://www.google.com/search?hl=pt-BR&gl=br&q=F+Informatica+-+R.+Santos+Dumont,+205+-+Centro,+Uni%C3%A3o+da+Vit%C3%B3ria+-+PR,+84600-000&ludocid=8085675296683063705&lsig=AB86z5VLA-Y8NfWLpQPezDctyBgv#lrd=0x94e661fbd3086c91:0x703616d7b3f1f999,1,,," target="blank"><i class="fab fa-google-plus-square"></i></a></div>
+                      <footer>
+                        <div><img src="fotos/logo.png" height="45px" class="rodape"><div class="direito">© 2020 F INFORMATICA / FAMATEL. TODOS OS DIREITOS RESERVADOS.</div></div>
+                      </footer>
+                      <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+                      <script type="text/javascript" src="app.js"></script> 
+                      <div class="whats"><a href="https://api.whatsapp.com/send?l=pt&amp;phone=5542984014781&amp;text=Gostaria de informações" target="_blank"><img src="fotos/whatsapp-logo.png" height="55px" style="position:fixed"><div class="wpp">Posso ajudar?</div></a></div>      
+                      <div class="wpp">Posso ajudar?</div> 
+
+
+            <script>
+                  function typeWriter(elemento) {
+                  const textoArray = elemento.innerHTML.split('');
+                  elemento.innerHTML = '';
+                  textoArray.forEach((letra, i) => {
+                    setTimeout(() => elemento.innerHTML += letra, 35 * i);
+                  });
+                }
+              
+                const titulo = document.querySelector('h3');
+                typeWriter(titulo);
+              
+            </script>
+    </body>
+    
+</html>
